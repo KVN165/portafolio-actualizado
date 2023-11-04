@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer proyecto con un Bundler</title>
+    <link rel="stylesheet" href="./less/style.less">
+  </head>
+  <body>
+    <header>
+      <h1 id="1">Perfil de Portafolio</h1>
+      <nav>
+          <ul>
+              <li><a href="#1">Inicio</a></li>
+              <li><a href="#2">Información</a></li>
+              <li><a href="#3">Portafolio</a></li>
+              <li><a href="#4">Contacto</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <div class="contenedor1">
+          <h1>Estas en el portafolio de:</h1>
+          <br>
+          <h1>Kevin Fernando Calix Chavez</h1>
+      </div>
+
+      <div class="informacion" id="2">
+          <h2>Información Personal</h2>
+          <div class="contenedor-info-personal">
+              <div class="datos">
+                  
+                  <p> <b> Nombre completo:</b><br>Kevin Fernando Calix Chavez <br> <b>Número de identidad: </b><br>0801-2001-20637 <br> <b>Fecha de nacimiento:</b> <br>17-10-2001 (17 de octubre del 2001) <br> <b>Edad: </b><br>21 años <br><b>Nacionalidad: </b><br>Hondureña <br><b>Teléfono: </b> <br>+504 8944-7979</p>
+              </div>
+              <div>
+                  <img src="/recursos/imagen1.jpg" height="300px" >
+              </div>
+
+          </div>
+          <br>
+          
+          
+      </div>
+      <div class="informacion">
+          <h2 id="3">Portafolio</h2>
+          <img src="/recursos/imagen2.PNG">
+          <br>
+
+      </div>
+  </main>
+  <footer>
+      <div class="pie" id="4">
+          <h2>Contacto</h2>
+          <p class="datos">Telefono: +504 8444-7979 </p>
+          <br>
+          <p class="datos">Rellena el siguiente formulario o escríbeme al correo de kevincalix007@gmail.com para contactarme: <br></p>
+          
+          <form action="" style="margin-top: 25px; margin-bottom: 25px;">
+              <fieldset style="background-color: white; color: black;">
+                  <table>
+                      <tr>
+                          <td><label for="">Tu nombre:</label></td>
+                          <td><input type="text" style="width: 200px;" placeholder="Tu nombre"></td>
+                      </tr>
+                      <tr>
+                          <td><label for="">Email:</label></td>
+                          <td><input type="text" style="width: 200px;" placeholder="Tu correo electrónico"></td>
+                      </tr>
+                      <tr>
+                          <td><label for="">Asunto</label></td>
+                          <td><textarea name="" id="" cols="30" rows="10" placeholder="Por qué quieres contactarme? "></textarea></td>
+                      </tr>
+                      <tr>
+                          <th colspan="2">
+                              <input type="submit" name="enviar" value="Enviar">
+                          </th>
+                      </tr>
+                  </table>    
+              </fieldset>
+          </form>
+          <h2 style="margin-bottom: 70px;">
+              <a href="#1">Regresar al inicio</a>
+          </h2>
+      </div>
+      
+  </footer>
+  </body>
+</html>
